@@ -1,0 +1,296 @@
+html,
+body {
+    margin: 0;
+    height: 150% ;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+.grid{
+    display: grid;
+    min-height: 100%;
+    grid-template-rows: 85px 1fr  430px 570px 150px ;
+}
+
+header {
+   padding-top: 5px;
+   display: flex;
+   border-bottom: 2px solid #e8e8e8; 
+   padding: 0 100px;
+}
+
+h1{
+  background: url(img/frame.png) no-repeat;
+  font-size: 26px;
+  padding-right: 50px;
+  position: relative;
+  padding-top: 3px;
+  padding-left: 15px;
+  
+}
+
+.real {
+    color: grey;
+    font-weight: 500;
+}
+
+.header_list{
+    padding-left: 200px ; 
+    padding-top: 15px;
+}
+
+.list {
+     list-style-type: none;
+     display: inline; 
+     padding-right:15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(60, 60, 60, 255);
+    padding-right: 25px;
+    letter-spacing: -0.9px; 
+}
+
+.icon{
+    padding-top: 10px;
+    padding-left: 30px ;
+    margin-top: 10px;
+} 
+
+.icon_img {
+    padding: 10px 10px;
+    border: 1px solid  #f2f2f2;
+    background: url(img/base.png)  no-repeat center;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;  
+}  
+
+.main{
+    padding: 50px 100px;
+}
+
+.home{
+    font-size: 14px;
+    
+}
+ 
+.home span {
+    color: red;
+}
+
+h2{
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.about_title{
+    font-weight: 300;
+}
+
+.text{
+    padding-left: 25px;
+    font-size: 16px;
+    display: flex;
+    flex-shrink: 200px;
+    color: rgba(121, 121, 121, 255);
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.content {
+    padding-top: 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.about_us{
+    height: 280px;
+    margin-top: 20px;
+    padding: 60px 100px 20px 60px;
+    background-color: #f6f6f6;
+    
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.world{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.item {
+    list-style-type: none;   
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;  
+    margin-bottom: 40px;
+    color: #797979;
+}
+
+.team{
+    padding: 30px 100px;
+}
+
+.our_team{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title  {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.want{
+    color: red;
+    text-decoration: underline;
+}
+
+.our_title {
+    font-weight: 300;
+}
+
+.manegers{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    height: 390px;
+    width: 266px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+}
+
+.name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.subscribe{
+    padding: 0 100px;
+    height: 150px;
+    background-color: #f3f2f2;
+    font-size: 37px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+input {
+    color:#d2d2d2;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+
+}
+
+.form_input{
+    width: 390px;
+    height: 50px;
+   
+}
+
+.form_label{
+    padding-right: 80px;
+    color: #3c3c3c;
+}
+
+.form_button{
+    width: 150px;
+    height: 55px;
+    background-color: #e2574c;
+    border: none;
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    background-color: #303030;
+    color: white;
+    height: 270px;
+    padding-left: 70px;
+}
+
+.footer_item{
+    padding-top: 20px;
+}
+
+h4{
+  background: url(img/frame2.png) no-repeat;
+  font-size: 26px;
+  padding: 5px 17px;
+  margin-bottom: 15px;
+  color: #acacac;
+}
+
+.real_footer{
+    color: #494949;
+}
+
+.icon_list{
+    margin-top: 20px;
+}
+
+.icon_footer {
+    padding: 10px 10px;
+    border: 1px solid  #f2f2f2;
+    background: url(img/base.png)  no-repeat center;
+    background-color: white;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;  
+    margin-left: 2px;
+}  
+
+.list_footer {
+   list-style-type: none;
+   font-size: 15px;
+   padding-right: 25px;
+   letter-spacing: -0.9px; 
+}
+
+.list_footer a{
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+}
+
+.list_footer_nav{
+    font-size: 28px;
+    list-style-type: none;
+    padding-bottom: 20px; 
+}
+
+.footer_item {
+    padding-left: 100px;
+}
+
+.footer_item_2 {
+    margin-left: 35px;
+    padding: 40px 25px;
+}
+.list_footer{
+    padding-bottom: 6px;
+}
+
+.mail{
+    color: red;
+    padding-left: 40px;
+    font-size: 15px;
+}
+  
